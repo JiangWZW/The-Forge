@@ -7,12 +7,12 @@
 cd /D "%~dp0"
 
 set filename=Art.zip
-@REM if exist %filename% (
-@REM     del %filename%
-@REM )
+if exist %filename% (
+    del %filename%
+)
 
-@REM echo Pulling Art Assets
-@REM "Tools/wget" -O %filename% http://www.conffx.com/%filename%
+echo Pulling Art Assets
+"Tools/wget" -O %filename% http://www.conffx.com/%filename%
 
 echo Unzipping Art Assets...
 "Tools/7z" x %filename% -y > NUL

@@ -1,4 +1,4 @@
-/*
+/* 
  * Copyright (c) 2017-2024 The Forge Interactive Inc.
  *
  * This file is part of The-Forge
@@ -57,8 +57,8 @@
 
 #if defined(__GNUC__) && !defined(__clang__)
 #pragma GCC diagnostic push
-#pragma GCC diagnostic ignored "-Wcomment" // Do not warn whenever a comment-start sequence ‘/*’ appears in a ‘/*’ comment, or whenever a
-                                           // backslash-newline appears in a ‘//’ comment.
+#pragma GCC diagnostic ignored "-Wcomment" // Do not warn whenever a comment-start sequence /* appears in a /* comment, or whenever a
+                                           // backslash-newline appears in a // comment.
 #pragma GCC diagnostic ignored "-Wformat-truncation" // Do not warn about calls to formatted input/output functions such as snprintf and
                                                      // vsnprintf that might result in output truncation.
 #pragma GCC diagnostic ignored \
