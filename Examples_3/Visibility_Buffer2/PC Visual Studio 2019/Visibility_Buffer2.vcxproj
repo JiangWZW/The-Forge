@@ -18,6 +18,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\Common_3\Renderer\Interfaces\IVisibilityBuffer2.h" />
     <ClInclude Include="..\..\Visibility_Buffer\src\SanMiguel.h" />
+    <ClInclude Include="..\src\Visibility_Buffer.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\Common_3\Renderer\VisibilityBuffer2\Shaders\FSL\clear_buffers.h.fsl" />
@@ -59,7 +60,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>

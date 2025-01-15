@@ -148,4 +148,9 @@
       <Filter>Common_3\Renderer\VisibilityBuffer2\Shaders\FSL</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Visibility_Buffer.h">
+      <Filter>Examples_3\Visibility_Buffer2\src</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
